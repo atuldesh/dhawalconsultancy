@@ -210,7 +210,7 @@
 		if($nr1==0)
 		{
 			echo 0;
-			return;
+			return; 
 		}
 		$row = mysql_fetch_array($res);
 		$srFrom=$row['srno'];			// get 1st srno to disp.
