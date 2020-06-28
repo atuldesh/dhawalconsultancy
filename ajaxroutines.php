@@ -4,11 +4,12 @@
 
  session_start(); ?>
 <?php
+
 	include_once('Comp.php');?>
 <?php
 //	$_SESSION['cono']=1;
 	$cnt = $_POST['vcnt'];
-//	echo $cnt;
+//	echo $cnt;  
 	function __autoload($cl)
 	{
 		include $cl.".php";
